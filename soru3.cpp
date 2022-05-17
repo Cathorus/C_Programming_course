@@ -86,8 +86,8 @@ void displayList(){
     else{
         temp = head;
         while(temp != NULL){
-            printf("Data = %d\n", temp->data); // Print the data of current node
-            temp = temp->next;                 // Move to next node
+            printf("Data = %d\n", temp->data);
+            temp = temp->next;
         }
     }
 }
